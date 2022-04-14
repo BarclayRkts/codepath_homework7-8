@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Username Enumeration
     - Tested in version: 4.1.00
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="UsernameEnumeration.gif" alt="Username Enumeration">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -20,7 +20,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Password Enumeration
     - Tested in version: 4.1.00
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="PasswordEnumeration.gif" alt="Password Enumeration">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -29,7 +29,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Comment Cross-Site Scripting 
     - Tested in version: 4.1.00
     - Fixed in version: 4.1.26
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="xss.gif" alt="Xss">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
