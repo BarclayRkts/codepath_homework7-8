@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: *5 hours spent in total
+Time spent: 5 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -14,7 +14,7 @@ Time spent: *5 hours spent in total
   - [ ] GIF Walkthrough: <img src="UsernameEnumeration.gif" alt="Username Enumeration">
   - [ ] Steps to recreate: Run wpscan --url http://127.0.0.1:8080 --api-token ar6NfqrODSEXyb7JA3X8elecFcEumX2VTd6YSs4DE9k -e u vp in terminal.
 
-### 2. (Required) Password Enumeration
+### 2. Password Enumeration
   - [ ] Summary: I used wpscan to find all correct username and passoword combinations.
     - Vulnerability types: Password Enumeration
     - Tested in version: 4.1.00
@@ -22,7 +22,7 @@ Time spent: *5 hours spent in total
   - [ ] GIF Walkthrough: <img src="PasswordEnumeration.gif" alt="Password Enumeration">
   - [ ] Steps to recreate: Populate passoword.txt and username.txt with username and passowrd combination. Then run wpscan --url http://127.0.0.1:8080 --         api-token ar6NfqrODSEXyb7JA3X8elecFcEumX2VTd6YSs4DE9k --usernames username.txt --passwords password.txt to find any matches.
   
-### 3. (Required) Comment Cross-Site Scripting 
+### 3. Comment Cross-Site Scripting 
   - [ ] Summary: I created a post that manipulated HTML so that everytime someone visted a specific page alert was shown on the webpage. 
     - Vulnerability types: Comment Cross-Site Scripting 
     - Tested in version: 4.1.00
@@ -33,6 +33,8 @@ Time spent: *5 hours spent in total
 ## Assets
 
 List any additional assets, such as scripts or files
+  <img src="webscan.gif" alt="scan">
+
 
 ## Resources
 
