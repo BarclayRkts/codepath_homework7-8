@@ -6,7 +6,7 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. Username Enumeration
   - [ ] Summary: I used wpscan to find all the users for the wp website.
     - Vulnerability types: Username Enumeration
     - Tested in version: 4.1.00
@@ -15,7 +15,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) Passowrd Enumeration
   - [ ] Summary: I used wpscan to find all correct username and passoword combinations.
     - Vulnerability types: Passowrd Enumeration
     - Tested in version: 4.1.00
@@ -24,7 +24,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 3. (Required) Vulnerability Name or ID
+### 3. (Required) Comment Cross-Site Scripting 
   - [ ] Summary: I created a post that manipulated HTML so that everytime someone visted a specific page alert was shown on the webpage. 
     - Vulnerability types: Comment Cross-Site Scripting 
     - Tested in version: 4.1.00
